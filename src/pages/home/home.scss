@@ -1,0 +1,58 @@
+page-home {
+    .header .toolbar-title{
+        text-align: center;
+        color: white !important;
+        
+    }
+    .news {
+        text-align: center;
+        border: 2px solid burlywood;
+        border-radius: 10px;
+    }
+
+    .image {
+        float: left;
+        width: 50%;
+        margin-bottom: 3px;
+        margin-right: 10px;
+    }
+
+    .name {
+        font-style: italic;
+        font-variant: 'Segoe UI', Tahoma,Verdana, sans-serif;
+        font-size: 12px;
+
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 12px;
+        font-family: Arial,sans-serif; 
+        text-align:justify;
+        
+    }
+
+    .description {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-align: justify;
+        padding: 5px;
+    }
+
+    .publis {
+        font-size: 9px;
+        font-style: italic;
+        padding-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .toolbar {
+        .toolbar-background{
+            background-color:  goldenrod;
+        }
+
+    }
+
+    
+
+}

@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <div class="news">NewsTime.com</div>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-card *ngFor="let news of articles">
+
+   <img class="image" style="border-bottom: 5px solid black;"  [src]="news.urlToImage">
+
+   <ion-card-content>
+    <p class="name" >{{news.source.name}}</p>
+    <ion-card-title>
+      <p class="title">{{news.title}}</p>
+    </ion-card-title >
+    <p class="description">{{news.description}}</p>
+    
+    <h6 class="publis"><ion-icon name="md-calendar"></ion-icon> Publis - {{news.publishedAt}}
+    </h6>
+  </ion-card-content>
+
+
+ </ion-card>
+</ion-content>
